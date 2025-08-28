@@ -1,0 +1,119 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   My Custom Blog - Team
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   /* Custom colors for dark theme */
+   :root {
+    --color-primary: #3b82f6; /* blue-500 */
+    --color-primary-hover: #2563eb; /* blue-600 */
+    --color-secondary: #34d399; /* emerald-400 */
+    --color-secondary-hover: #10b981; /* emerald-500 */
+    --color-bg-dark: #121212;
+    --color-bg-darker: #1e1e1e;
+    --color-border-dark: #374151; /* gray-700 */
+    --color-text-light: #d1d5db; /* gray-300 */
+    --color-text-muted: #9ca3af; /* gray-400 */
+   }
+   a,
+   button {
+    transition: color 0.3s ease, background-color 0.3s ease;
+   }
+  </style>
+ </head>
+ <body class="bg-[#121212] text-gray-300 font-sans antialiased">
+  <header class="w-full border-b border-gray-700 bg-[#1e1e1e] shadow-md" style="border-color: var(--color-border-dark)">
+   <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 flex items-center justify-between h-20">
+    <h1 class="text-3xl font-extrabold tracking-tight" style="color: var(--color-primary)">
+     My Custom Blog
+    </h1>
+    <nav class="space-x-8 text-sm font-semibold text-gray-400">
+     <a class="hover:text-[#3b82f6] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 rounded" href="index.html" style="color: var(--color-text-muted)">
+      Home
+     </a>
+     <a class="hover:text-[#3b82f6] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 rounded" href="#" style="color: var(--color-text-muted)">
+      Admin
+     </a>
+     <a class="hover:text-[#3b82f6] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 rounded" href="#" style="color: var(--color-text-muted)">
+      Team
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-10 mt-12 space-y-16">
+   <section aria-label="Team Members" class="space-y-12">
+    <h2 class="text-4xl font-extrabold border-b border-gray-700 pb-4" style="color: var(--color-primary)">
+     Meet Our Team
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+     <article class="bg-[#1e1e1e] rounded-lg shadow-lg p-6 flex flex-col items-center text-center" style="border: 1px solid var(--color-border-dark)">
+      <img alt="Photo of Team Member 1, a professional person smiling" class="w-36 h-36 rounded-full object-cover mb-4 shadow-md" height="150" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8d71bc71-8ab0-4642-e247-c466e1b5eb3d.jpg" width="150"/>
+      <h3 class="text-xl font-semibold mb-1 text-gray-200">
+       Alice Johnson
+      </h3>
+      <p class="text-gray-400 mb-4 text-sm">
+       Lead Developer
+      </p>
+      <div class="flex space-x-6">
+       <a aria-label="WhatsApp Alice Johnson" class="text-green-500 hover:text-green-600 text-2xl" href="https://wa.me/1234567890" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-whatsapp">
+        </i>
+       </a>
+       <a aria-label="Facebook Alice Johnson" class="text-blue-600 hover:text-blue-700 text-2xl" href="https://facebook.com/alicejohnson" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-facebook-f">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-[#1e1e1e] rounded-lg shadow-lg p-6 flex flex-col items-center text-center" style="border: 1px solid var(--color-border-dark)">
+      <img alt="Photo of Team Member 2, a professional person smiling" class="w-36 h-36 rounded-full object-cover mb-4 shadow-md" height="150" loading="lazy" src="https://storage.googleapis.com/a1aa/image/05ea1d93-4448-489c-52fa-d9c698036bf1.jpg" width="150"/>
+      <h3 class="text-xl font-semibold mb-1 text-gray-200">
+       Michael Smith
+      </h3>
+      <p class="text-gray-400 mb-4 text-sm">
+       Creative Director
+      </p>
+      <div class="flex space-x-6">
+       <a aria-label="WhatsApp Michael Smith" class="text-green-500 hover:text-green-600 text-2xl" href="https://wa.me/0987654321" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-whatsapp">
+        </i>
+       </a>
+       <a aria-label="Facebook Michael Smith" class="text-blue-600 hover:text-blue-700 text-2xl" href="https://facebook.com/michaelsmith" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-facebook-f">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-[#1e1e1e] rounded-lg shadow-lg p-6 flex flex-col items-center text-center" style="border: 1px solid var(--color-border-dark)">
+      <img alt="Photo of Team Member 3, a professional person smiling" class="w-36 h-36 rounded-full object-cover mb-4 shadow-md" height="150" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9c35ea3a-eda0-4463-3a53-2cabb85e8714.jpg" width="150"/>
+      <h3 class="text-xl font-semibold mb-1 text-gray-200">
+       Sophia Lee
+      </h3>
+      <p class="text-gray-400 mb-4 text-sm">
+       Marketing Specialist
+      </p>
+      <div class="flex space-x-6">
+       <a aria-label="WhatsApp Sophia Lee" class="text-green-500 hover:text-green-600 text-2xl" href="https://wa.me/1122334455" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-whatsapp">
+        </i>
+       </a>
+       <a aria-label="Facebook Sophia Lee" class="text-blue-600 hover:text-blue-700 text-2xl" href="https://facebook.com/sophialee" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-facebook-f">
+        </i>
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-10 mt-20 py-6 border-t border-gray-700 text-xs text-gray-400 bg-[#1e1e1e]" style="border-color: var(--color-border-dark)">
+   © 2025 My Custom Blog
+  </footer>
+ </body>
+</html>
